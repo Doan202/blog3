@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+}
+.container {
+  background-color: #b16668;
+  h1 {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 125px 0px 26px;
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    text-align: center;
+    color: var(--color-gray-black, #fff);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    span {
+      color: var(--color-gray-black, black);
+      font-family: Inter;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    a {
+      color: #2869f6;
+      background: #ffffff;
+      border-radius: 100px;
+      padding: 13px 28px;
+      text-decoration: none;
+      width: 138px;
+      border-color: #f68c20;
+    }
+    p {
+      margin: 0px auto;
+      text-align: center;
+      padding-left: 20px;
+      line-height: normal;
+      margin-bottom: 45px;
+    }
+  }
+  .box {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 592px;
+    color: #fff;
+    h2 {
+      margin: 50px auto;
+      border-bottom: solid 1px #fff;
+      color: #fff;
+      width: fit-content;
+    }
+    p {
+      text-align: left;
+      padding-left: 0px;
+    }
+  }
+
+  .text-list {
+    text-align: left;
+    padding-left: 0px;
+    line-height: 32px;
+    position: relative;
+    list-style: none;
+    display: block;
+    li {
+      padding-left: 20px;
+      &::nth-of-type(2) {
+        color: red;
+      }
+      &:nth-of-type(4) {
+        color: #0eef17;
+      }
+      &::before {
+        content: " ";
+        background-image: url(../images/entypo_check.png);
+        background-size: contain;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 0;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+  button {
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    display: flex;
+    height: 56px;
+    padding: 16px 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #f68c20;
+    width: 100%;
+    max-width: 401px;
+    border: none;
+    margin: 0;
+  }
+  .grapper {
+    display: inline-flex;
+    gap: 100px;
+    width: 100%;
+    margin-top: 80px;
+    .images {
+      width: 50%;
+      padding-left: 0;
+    }
+    .list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      color: #fff;
+      ul {
+        padding-left: 0;
+        margin-top: 0;
+        li {
+          list-style: none;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          gap: 48px;
+          margin: 20px 20px;
+          margin-left: 0;
+          span {
+            color: #fff;
+            background: #f37821;
+            border-radius: 8px;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+  .calender {
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      color: violet;
+    }
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+      img {
+        width: calc(100% / 3);
+      }
+    }
+    border-bottom: solid 1px #fff;
+  }
+  .footer {
+    .menu {
+      display: flex;
+      padding: 60px 20px;
+      color: #fff;
+      margin: 0 auto;
+      .item {
+        h2 {
+          margin-bottom: 19px;
+          font-size: 20px;
+          font-weight: 400px;
+          line-height: 22px;
+          margin-top: 20px;
+        }
+        width: 25%;
+        padding-left: 0px;
+        p {
+          margin: 30px 0 30px;
+        }
+        .tittle {
+          i {
+            font-size: 26px;
+            background: #fff;
+            color: blue;
+            border-radius: 100%;
+            margin-right: 10px;
+            margin-top: 15px;
+            padding: 5px;
+          }
+        }
+        .contact {
+          div {
+            display: flex;
+            align-items: center;
+          }
+          i {
+            font-size: 26px;
+            background: #fff;
+            border-radius: 100%;
+            color: #ad9b9b;
+            margin-bottom: 10px;
+            padding: 5px;
+            margin-right: 10px;
+          }
+        }
+      }
+      .item-childen {
+        ul {
+          li {
+            list-style: none;
+            line-height: 22px;
+            font-size: 12px;
+            margin-bottom: 5px;
+          }
+          h3 {
+            text-align: center;
+          }
+          padding-left: 0px;
+        }
+      }
+    }
+  }
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+    p{
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+}
+}
