@@ -170,6 +170,10 @@ body {
 .container .calender .images img {
   width: 33.3333333333%;
 }
+.container .footer .wrap {
+  max-width: 995px;
+  margin: 0 auto;
+}
 .container .footer .menu {
   display: flex;
   padding: 60px 20px;
